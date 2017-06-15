@@ -8,7 +8,7 @@ Extends WordPress comments and adds comment voting feature (like / dislike) for 
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 3. Go to "Comments > TB Comments Voting" in the admin to set options.
 
-## How do I use it? =
+## How do I use it?
 
 After plugin activation go to "Comments > TB Comments Voting" in the admin to set options. You'll be able to choose appearance position:
 
