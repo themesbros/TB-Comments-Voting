@@ -129,7 +129,7 @@ class TB_Comment_Voting_Admin {
 		<p><?php esc_html_e( 'If custom position chosen, you can place function in your comments template like this:', 'tb-comments-voting' ); ?>
 		<br>
 		<code>
-			&lt;?php if ( function_exists( 'tbcv_shortcode_voting' ) ) { echo tbcv_shortcode_voting(); }; ?&gt;
+			&lt;?php if ( function_exists( 'tbcv_shortcode_voting' ) ) { echo tbcv_shortcode_voting(); } ?&gt;
 		</code>
 		<br> <?php esc_html_e( 'or', 'tb-comments-voting' ); ?> <br>
 		<code>&lt;?php echo do_shortcode( '[tbcv_voting]' ); ?&gt;</code>
