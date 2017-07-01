@@ -21,6 +21,7 @@
 .tb-comment-vote:hover,
 .tb-comment-vote:focus {
 	text-decoration: none;
+	outline: 0;
 }
 
 .tb-comment-vote i {
