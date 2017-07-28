@@ -146,13 +146,15 @@ class TB_Comment_Voting_Admin {
 	 */
 	public function display_options() {
 		?>
-		<form action="options.php" method="POST">
-			<?php
-			settings_fields( 'tbcv_options' );
-			do_settings_sections( 'tbcv_options' );
-			submit_button();
-			?>
-		</form>
+		<div class="wrap">
+			<form action="options.php" method="POST">
+				<?php
+				settings_fields( 'tbcv_options' );
+				do_settings_sections( 'tbcv_options' );
+				submit_button();
+				?>
+			</form>
+		</div>
 		<?php
 	}
 
