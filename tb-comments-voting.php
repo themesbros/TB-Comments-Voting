@@ -84,10 +84,10 @@ class TB_Comments_Voting {
 	 * @return void
 	 */
 	public function includes() {
-		require_once 'inc/options.php';
-		require_once 'inc/ajax.php';
-		require_once 'inc/functions.php';
-		require_once 'inc/shortcodes.php';
+		require_once plugin_dir_path( __FILE__ ) . '/inc/options.php';
+		require_once plugin_dir_path( __FILE__ ) . '/inc/ajax.php';
+		require_once plugin_dir_path( __FILE__ ) . '/inc/functions.php';
+		require_once plugin_dir_path( __FILE__ ) . '/inc/shortcodes.php';
 	}
 
 	/**
